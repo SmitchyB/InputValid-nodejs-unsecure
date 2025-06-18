@@ -1,0 +1,2 @@
+# InputValid-nodejs-unsecure
+This repo hosts an unsecure Node.js (Express) sign-up app for a Master's research study on input validation. It intentionally accepts username, email, phone, and password without any validation, sanitization, or length/format checks. This build provides a vulnerable baseline for empirical testing and demonstrating exploits like injection or malformed data, crucial for evaluating SAST tool detection. 
